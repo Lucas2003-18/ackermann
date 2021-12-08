@@ -1,12 +1,8 @@
-// Lucas Rafael Barbosa Ribeiro - 2760482111004
-// Otavio Custodio Zampar - 2760482111011
-
-//Função Ackermann
-//Sinceramente prof, me superei bastante nesse código kkkk
+//FunÃ§Ã£o Ackermann
 
 #include <stdio.h>
 
-int acker(int, int); //chamando a função
+int acker(int, int); //chamando a funÃ§Ã£o
 
 int main(){
 	int m, n;
@@ -14,12 +10,12 @@ int main(){
 	printf("Entre com o valor para m e n: ");
 	scanf("%d %d", &m, &n);
 	
-	printf("A resposta para Ackermann é %d %d", acker(m, n), not_acker(m,n));
+	printf("A resposta para Ackermann Ã© %d %d", acker(m, n), not_acker(m,n));
 	
 	return 0;
 }
 
-//função recursiva ackermann
+//funÃ§Ã£o recursiva ackermann
 int acker(int m, int n){ 
 	
 	if(m == 0){
@@ -31,7 +27,7 @@ int acker(int m, int n){
 	}
 }
 
-//função não recursiva (olha eu juro que tentei fazer mas essa foi complicada)
+//funÃ§Ã£o nÃ£o recursiva 
 int not_acker(int m, int n){
 	push(m);
 	while(!isEMPTY()){
